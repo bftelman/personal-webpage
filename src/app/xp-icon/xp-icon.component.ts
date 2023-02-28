@@ -35,7 +35,7 @@ import { Component, Input } from '@angular/core';
       }
     </style>
     <div class="icon">
-      <img [src]="imageSrc" [alt]="name" class="icon-img">
+      <a target="_blank" [href]="url ? url : null"><img [src]="imageSrc" [alt]="name" class="icon-img"></a>
       <p class="icon-name"> {{ name }}</p>
     </div>
   `,
@@ -45,4 +45,5 @@ import { Component, Input } from '@angular/core';
 export class XpIconComponent {
   @Input() name: string = ""
   @Input() imageSrc: string = ""
+  @Input() url: string = "";
 }
