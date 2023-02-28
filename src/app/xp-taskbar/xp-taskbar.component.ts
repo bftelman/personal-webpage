@@ -41,7 +41,7 @@ import { Component } from '@angular/core';
     </style>
     <div class="task-bar">
       <button class="start-button" (click)="onClick()">
-         <img class="start-button-img" [src]="isClicked ? '../../assets/start-button-pressed.svg' : '../../assets/start-button.svg'" alt="">
+         <img class="start-button-img" [src]="isClicked ? 'assets/start-button-pressed.svg' : 'assets/start-button.svg'" alt="">
        </button>
        <div class="task-bar-right">
        </div>

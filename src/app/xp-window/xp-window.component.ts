@@ -61,9 +61,9 @@ import { Component, Input } from '@angular/core';
       <div class="window-header">
         <p class="window-name"> {{ title }}</p>
         <div class="window-controls">
-          <button><img src="../../assets/minimize-button.svg" alt=""></button>
-          <button><img src="../../assets/maximize-button.svg" alt=""></button>
-          <button><img src="../../assets/close-button.svg" alt=""></button>
+          <button><img src="assets/minimize-button.svg" alt=""></button>
+          <button><img src="assets/maximize-button.svg" alt=""></button>
+          <button><img src="assets/close-button.svg" alt=""></button>
         </div>
       </div>
       <div class="window-main">
